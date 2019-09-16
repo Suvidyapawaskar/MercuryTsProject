@@ -27,6 +27,7 @@ public class FlightFinderpage
 	
 	public void verifyFlightFinderimg()
 	{
+		System.out.println("In verifyFlightFinderimg method under FlightFinderpage");
 		boolean flag=objflightfinder.isDisplayed();
 		System.out.println("Flight finder image is displayed");
 	}
